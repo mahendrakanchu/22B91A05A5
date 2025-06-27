@@ -1,7 +1,7 @@
 ///password for cluster:FVPIKc3ypDudOFKi
 import mongoose, { mongo } from "mongoose";
-const url='mongodb+srv://kamsuvenu2004:FVPIKc3ypDudOFKi@cluster0.azq7e.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
-
+const url='mongodb+srv://mahendrakanchu2003:apmAL1aJHLDUTERI@cluster0.ssoz1kt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+let a=10;
 const connect = async() => {
    mongoose.connect(url)
    .then(()=> {
